@@ -1,0 +1,55 @@
+body{
+    background-color: beige;
+    font-family: sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#order-box{
+    width: 650px;
+    height: 550px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px
+}
+
+#order-box h1 {
+    margin-bottom: 15px;
+    color: black;
+}
+
+#order-box label {
+    width: 550px;
+    text-align: left;
+    font-size: 20px;
+}
+
+input, select {
+    width: 550px;
+   height: 50px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+button{
+    margin-top: 15px;
+    padding: 12px 35px;
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
